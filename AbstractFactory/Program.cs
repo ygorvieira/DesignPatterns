@@ -2,6 +2,7 @@
 {
     class Program
     {
+        //Este padrão permite a criação de famílias de objetos relacionados ou dependentes por meio de uma única interface e sem que a classe concreta seja especificada.
         static void Main(string[] args)
         {
             IFabricaBases fabrica;

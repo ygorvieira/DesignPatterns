@@ -8,6 +8,7 @@ namespace Singleton
 {
     public sealed class Singleton
     {
+        //Este padrão garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto.
         private static Singleton instancia = null;
 
         public static Singleton GetInstancia

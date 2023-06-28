@@ -8,6 +8,7 @@ namespace FactoryMethod
 {
     public class FactoryMethod
     {
+        //A Factory delega a responsabilidade para que as subclasses especifiquem seu tipo.
         public IPersonagem EscolherPersonagem(string personagem)
         {
             switch (personagem)
